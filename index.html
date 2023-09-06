@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+<head> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+     
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+     
+    <link rel="stylesheet" href="./style.css"> 
+     
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Estilização</title> 
+   
+</head> 
+<body> 
+    <nav> 
+        <img src="./download.png" alt="logo-empresa"> 
+        <ul> 
+            <li><a href="#">Home</a></li> 
+            <li><a href="https://www.instagram.com/Lusca.cid">Instagram</a></li> 
+            <li><a href="###">Linkedin</a></li> 
+            <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li> 
+        </ul> 
+    </nav> 
+    <div class="page  hide"> 
+        <header> 
+            <h1>Formulário de inscrição no programa.</h1> 
+            <p>para ter mais acesso ao nosso conteúdo, se inscreva no nosso canal!</p> 
+        </header> 
+        <form> 
+            <fieldset> 
+                <legend>Suas Informações</legend> 
+             
+                <div class="input-wrapper"> 
+                    <label for="register-name">Nome de usuário</label> 
+                    <input type="text" name="nome" id="register-name"
+                    required
+                    minlength="6"> 
+                </div> 
+                <div class="input-wrapper"> 
+                    <label for="register-password">Senha <span>(digite uma senha forte, no mínimo 8 caracteres)</span></label> 
+                    <input type="password" name="senha" id="register-password"
+                    required
+                    minlength="8"> 
+                </div> 
+                
+                
+            </fieldset> 
+            <button class="input-send">Registrar</button>
+        </form> 
+    </div> 
+    <div class="page-logon ">
+        <h2>Bom te ver novamente, Lucas</h2>
+        <p>sao exatamente 12 horas</p>
+        <button>close</button>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body> 
+</html>
